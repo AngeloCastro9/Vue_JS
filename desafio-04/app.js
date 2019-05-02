@@ -26,8 +26,8 @@ new Vue({
 				if(valor == 100) clearInterval(temporizador)
 			}, 500)
 		},
-		setPrimeiroCSS:(event) {
-			if(event.target.value == "true") {
+		setPrimeiroCSS(event) {
+			if (event.target.value == "true") {
 				this.primeiroCSS = true
 			} else if(event.target.value == "false") {
 				this.primeiroCSS = false
